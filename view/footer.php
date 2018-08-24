@@ -1,6 +1,6 @@
 </article>
 <footer>
-  <p>Copyright &copy; <a href="egg.php">2018<a> Share Food. All Rights Reserved.</p>
+  <p>Copyright &copy; 2018 Share Food. All Rights Reserved.</p>
 </footer>
 
 </body>
