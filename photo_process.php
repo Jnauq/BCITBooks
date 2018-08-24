@@ -1,5 +1,5 @@
 <?php
-  var_dump($_FILES['file']);
+
 
   // Upload and Resize the photo
   $post_photo = basename($_FILES['file']['name']);
@@ -39,11 +39,11 @@ if($ext == 'jpg' || $ext == 'jpeg') {
           $height = $width;
           $width = $tempheight;
         break;
-    }
+    } 
 
   }
 
-}
+} 
 
   $newwidth = 350;
   $newheight = $height / $width * $newwidth;  // calculating proportionate height
@@ -61,7 +61,7 @@ if($ext == 'jpg' || $ext == 'jpeg') {
   // result of json type
   $data = json_encode($path);
   echo $data;
-
+  
   // free the memory
   imagedestroy($src);
   imagedestroy($tmp_min);
