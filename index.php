@@ -29,8 +29,8 @@ $conn = db_init($config["host"], $config["dbuser"], $config["dbpw"], $config["db
     $sql_last = "SELECT id FROM list LIMIT 1";
   } else {
     $q = mysqli_real_escape_string($conn, $_GET['search']); // prevent sql input by user
-    $sql = "SELECT * FROM list WHERE title LIKE '%$q%' OR description LIKE '%$q%' OR location LIKE '%$q%' ORDER BY id DESC LIMIT {$count}";
-    $sql_last = "SELECT id FROM list WHERE title LIKE '%$q%' OR description LIKE '%$q%' OR location LIKE '%$q%' LIMIT 1";
+    $sql = "SELECT * FROM list WHERE title LIKE '%$q%' OR description LIKE '%$q%' OR location LIKE '%$q%' OR course LIKE '%$q%' OR author LIKE '%$q%' OR isbn LIKE '%$q%' ORDER BY id DESC LIMIT {$count}";
+    $sql_last = "SELECT id FROM list WHERE title LIKE '%$q%' OR description LIKE '%$q%' OR location LIKE '%$q%' OR course LIKE '%$q%' OR author LIKE '%$q%' OR isbn LIKE '%$q%' LIMIT 1";
   }
 
   // returns the last item's id

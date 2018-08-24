@@ -15,6 +15,10 @@ if(empty($_POST['title'])) {
     'password' => mysqli_real_escape_string($conn, $_POST['password']),
     'email' => mysqli_real_escape_string($conn, $_POST['email']),
     'title' => mysqli_real_escape_string($conn, $_POST['title']),
+    'price' => mysqli_real_escape_string($conn, $_POST['price']),
+    'isbn' => mysqli_real_escape_string($conn, $_POST['isbn']),
+    'course' => mysqli_real_escape_string($conn, $_POST['course']),
+    'author' => mysqli_real_escape_string($conn, $_POST['author']),
     'description' => mysqli_real_escape_string($conn, $_POST['description']),
   );
 
@@ -23,11 +27,15 @@ if(empty($_POST['title'])) {
 
   $sql = "
       INSERT INTO list
-      (password, email, title, status, image, description, created, location)
+      (password, email, title, price, isbn, course, author, status, image, description, created, location)
       VALUES(
         '{$filtered['password']}',
         '{$filtered['email']}',
         '{$filtered['title']}',
+        '{$filtered['price']}',
+        '{$filtered['isbn']}',
+        '{$filtered['course']}',
+        '{$filtered['author']}',
         'Available',
         '{$_POST['image']}',
         '{$filtered['description']}',
