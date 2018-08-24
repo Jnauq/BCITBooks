@@ -1,0 +1,38 @@
+/* CSS for about.php */
+.about-us {
+    margin: 1em auto;
+    text-align:center;
+    background-color: white;
+    width: 600px;
+    max-width: 90%;
+    padding: 1em 0;
+}
+.about-h2 {
+    padding-top:2vw;
+}
+.about-banner h1 {
+    padding: 3vw;
+    color: green;
+}
+#vanlogo {
+    width: 200px;
+}
+.about-mission {
+    color: green;
+}
+.about-desc {
+    width:80%;
+    text-align:left;
+    display:inline-block;
+}
+.video-player > video {
+    display: inline-block;
+    width: 350px;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.video-player {
+    opacity: 100;
+    font-size: 0;
+}
