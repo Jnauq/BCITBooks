@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
-    <title>Share Food</title>
+    <title>BCIT Books</title>
     <link rel="icon" href="img/logoImg.png">
-    <link rel="stylesheet" href="style/style.css?v=1.0">
+    <link rel="stylesheet" href="style/style.css?v=1.02">
     <!--  reference link to font awesome  -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -27,7 +27,7 @@
           <a class = "navBtn" id = "aboutBtn" href="about.php">ABOUT</a>
   
         </div>
-        <a id="nav-share-btn" href="post.php"><i class="fa fa-handshake-o" style="color:white"></i> SHARE</a>
+        <a id="nav-share-btn" href="post.php">POST</a>
       </nav>
     </div>
     </header>

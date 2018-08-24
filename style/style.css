@@ -54,7 +54,7 @@ nav {
 }
 
 #nav-share-btn:hover {
-  background-color: #c0e088;
+  background-color: #83aff7;
 }
 
 
@@ -65,11 +65,11 @@ nav {
 
 #logo {
   z-index: 100;
-  width: 200px;
+  width: 220px;
   margin-right: 0.3em;
   position: absolute;
   left:15px;
-  top: -10px;
+  top: 0px;
 }
 article {
   box-sizing: border-box;
@@ -271,7 +271,7 @@ progress[value]::-webkit-progress-bar {
 }
 .button:hover {
   cursor:pointer;
-  background-color: #c0e088;
+  background-color: #83aff7;
 }
 
 .bar {
@@ -444,7 +444,7 @@ input[type='checkbox']:checked:after {
 
 
 #searchbtn:hover {
-  background-color: #c0e088;
+  background-color: #83aff7;
   color: #042860;
 }
 
@@ -525,7 +525,7 @@ input[type='checkbox']:checked:after {
 }
 .emptybtn:hover, .confirmbtn:hover {
   cursor: pointer;
-  background-color: #c0e088;
+  background-color: #83aff7;
 }
 #editText{
   float:left;
@@ -786,13 +786,13 @@ input[type='checkbox']:checked:after {
 
   #logo {
     z-index: 100;
-    width: 170px;
+    width: 200px;
     margin: 0 auto;
     position: absolute;
     float: left;
     left: 50%;
     transform: translateX(-50%);
-    top: -3px;
+    top: 5px;
   }
   #nav-share-btn {
     position: absolute;
@@ -909,12 +909,12 @@ input[type='checkbox']:checked:after {
     margin-right: 22%;
   }
   #logo{
-    top:10px;
-    width:120px;
+    top:13px;
+    width:160px;
   }
   #nav-share-btn {
     position: absolute;
-    font-size:8pt;
+    font-size:10pt;
     right:-25px;
     top:14px;
     display:block;
