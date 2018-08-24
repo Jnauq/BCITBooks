@@ -6,8 +6,6 @@ $conn = db_init($config["host"], $config["dbuser"], $config["dbpw"], $config["db
  ?>
 
 <div class="banner" id="banner">
-  <p id="textAni1">SHARE FOOD</p>
-  <p id="textAni2">REDUCE WASTE</p>
   <div id="subheader">
     <span>A food sharing platform for BCIT students</span>
   </div>
@@ -153,8 +151,6 @@ $conn = db_init($config["host"], $config["dbuser"], $config["dbpw"], $config["db
           }
     })();
 </script>
-
-<script src="js/typewriter.js?v=1"></script>
 <?php
 require_once('view/footer.php');
  ?>

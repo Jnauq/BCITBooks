@@ -5,7 +5,7 @@
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
     <title>Share Food</title>
     <link rel="icon" href="img/logoImg.png">
-    <link rel="stylesheet" href="style/style.css?v=1">
+    <link rel="stylesheet" href="style/style.css?v=1.0">
     <!--  reference link to font awesome  -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
