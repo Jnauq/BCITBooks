@@ -23,7 +23,6 @@
       <nav id="nav">
       <a href="javascript:void(0);" onclick="menu_function()" id="icon" style="font-size:25px">&#9776;</a>
         <div class = "topMenu" id="menu">
-          <a class = "navBtn" id = "infoBtn" href="info.php">FOOD FACTS</a>
           <a class = "navBtn" id = "contactBtn" href="contact.php">CONTACT</a>
           <a class = "navBtn" id = "aboutBtn" href="about.php">ABOUT</a>
   

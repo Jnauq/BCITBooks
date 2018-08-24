@@ -4,8 +4,8 @@ function menu_function(){
     if (temp.className === "topMenu"){
       temp.className += " responsive";
       document.getElementById("nav-share-btn").classList.remove("responsive");
-      document.getElementById("nav").style.height = "261px";
-      document.getElementById("article").style.marginTop = "250px";
+      document.getElementById("nav").style.height = "210px";
+      document.getElementById("article").style.marginTop = "238px";
     } else {
       temp.className = "topMenu";
       document.getElementById("nav").style.height = "72px";
