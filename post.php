@@ -13,6 +13,19 @@ require_once('view/top.php');
     <p>
       <textarea name="description" rows="3" placeholder="Tell us a bit more about your food (e.g. quantity, best before date)"></textarea>
     </p>
+
+    <p>
+      <input class="textinput" type="text" name="course" placeholder="Course">
+    </p>
+
+    <p>
+    <input class="textinput" type="text" name="author" placeholder="Author">
+    </p>
+
+    <p>
+    <input class="textinput" type="text" name="isbn" placeholder="ISBN">
+    </p>
+
     <input type='file' accept="image/gif, image/jpeg, image/png, image/jpg" id="image">
     <input type='hidden' id="imgpath" name="path">
     <div id="uploadbox">
