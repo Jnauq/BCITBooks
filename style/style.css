@@ -9,10 +9,6 @@ body {
   margin: 0em;
   padding: 0em;
   background-color: #f7f7f7;
-  /* background-image: url('../img/background_min.jpg');
-  background-size: 100% auto;
-  background-color: rgb(229,229,229);
-  background-repeat: no-repeat; */
   text-align: center;
   opacity: 0.9;
   overflow-x: hidden;
@@ -84,9 +80,9 @@ article {
 }
 .banner {
   box-sizing: border-box;
-  padding-top: 70px;
+  padding-top: 30px;
   margin-bottom: 1em;
-  height: 600px;
+  /* height: 600px; */
 }
 .banner p {
   opacity: 0;
@@ -94,21 +90,15 @@ article {
   text-shadow: 1px 1px white;
   margin: 0;
   padding : 0;
-  color: #11522a;
+  color: #042860;
   font-size: 7.5vw;
   font-family: 'Do Hyeon';
   height: 10vw;
   position: relative;
 }
 
-#textAni1 {
-  left:10%;
-}
-#textAni2 {
-  left:40%;
-}
 #subheader {
-  color: #11522a;
+  color: #042860;
   font-size: 1.5em;
   margin: 0 auto;
   text-align: center;
@@ -734,13 +724,9 @@ input[type='checkbox']:checked:after {
 }
 
 @media screen and (max-width: 800px) {
-  body {
-    background-image: url('../img/background_min.jpg');
-    background-size: 120% auto;
-  }
   .banner {
-    height: 300px;
-    padding-top: 50px;
+    /* height: 300px; */
+    padding-top: 30px;
   }
   #subheader {
     font-size: 1.25em;
@@ -857,17 +843,14 @@ input[type='checkbox']:checked:after {
   }
   #toggle-check:checked ~ .checkContainer {
     height: 120px;
-}
+  }
 }
 
 
 @media screen and (max-width: 600px){
-  body {
-    background-size: 140% auto;
-  }
   .banner {
-    height: 250px;
-    padding-top: 40px;
+    /* height: 250px; */
+    padding-top: 20px;
   }
   #searchbox{
     width: 70%;
