@@ -23,6 +23,7 @@ if(count($_GET) == 0) {
     'image' => htmlspecialchars($row['image']),
     'isbn' => htmlspecialchars($row['isbn']),
     'author' => htmlspecialchars($row['author']),
+    'course' => htmlspecialchars($row['course']),
     'status' => htmlspecialchars($row['status']),
     'description' => htmlspecialchars($row['description']),
     'location'=> htmlspecialchars($row['location'])
@@ -64,6 +65,7 @@ echo "<div id='detail_left'><img src=\"{$escaped['image']}\" class='detailImg de
 <span id = 'detailPrice' class = 'details'><b>Price: </b>{$escaped['price']}<br><br></span>
 <span id = 'detailIsbn' class = 'details'><b>Isbn: </b>{$escaped['isbn']}<br><br></span>
 <span id = 'detailAuthor' class = 'details'><b>Author: </b>{$escaped['author']}<br><br></span>
+<span id = 'detailCourse' class = 'details'><b>Course: </b>{$escaped['course']}<br><br></span>
 
 <span id = 'detailDesc' class = 'details'><b>Description</b><br>{$escaped['description']}</span><br><br>
 <br>";

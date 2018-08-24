@@ -26,6 +26,10 @@ require_once('view/top.php');
     <input class="textinput" type="text" name="isbn" placeholder="ISBN">
     </p>
 
+    <p>
+    <input class="textinput" type="number" min="0" max="1000" name="price" placeholder="Price">
+    </p>
+
     <input type='file' accept="image/gif, image/jpeg, image/png, image/jpg" id="image">
     <input type='hidden' id="imgpath" name="path">
     <div id="uploadbox">
