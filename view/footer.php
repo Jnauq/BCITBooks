@@ -1,6 +1,6 @@
 </article>
 <footer>
-  <p>Copyright &copy; <a href="egg.php">2018<a> Share Food. All Rights Reserved.</p>
+  <p>&copy; 2018 BCIT Books</p>
 </footer>
 
 </body>
