@@ -6,7 +6,7 @@ require_once('view/top.php');
   <form id="form1" class="form center" action="post_confirm.php" name="posting" onsubmit="return check_input()" method="post" enctype="multipart/form-data">
     <div id = "post_left">
     <p>
-      <input class="textinput" type="text" name="title" placeholder="What would you like to share?">
+      <input class="textinput" type="text" name="title" placeholder="Book Title">
       <span class="highlight"></span>
       <span class="bar"></span>
     </p>
