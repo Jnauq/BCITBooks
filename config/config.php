@@ -2,8 +2,8 @@
 $config = array(
   "host" => "localhost",
   "dbuser" => "root",
-  "dbpw" => "121212",
-  "dbname" => "bcitbooks"
+  "dbpw" => "",
+  "dbname" => "BCITbooks"
 );
 
  ?>
