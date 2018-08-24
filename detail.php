@@ -19,7 +19,10 @@ if(count($_GET) == 0) {
   //prevent cross scripting attack
   $escaped = array(
     'title' => htmlspecialchars($row['title']),
+    'price' => htmlspecialchars($row['price']),
     'image' => htmlspecialchars($row['image']),
+    'isbn' => htmlspecialchars($row['isbn']),
+    'author' => htmlspecialchars($row['author']),
     'status' => htmlspecialchars($row['status']),
     'description' => htmlspecialchars($row['description']),
     'location'=> htmlspecialchars($row['location'])
@@ -57,6 +60,11 @@ echo "<p class='list_title center'>{$escaped['title']}</p>";
 echo "<div id='detail_left'><img src=\"{$escaped['image']}\" class='detailImg detailImg_fixSize'></div>
 <div class='requestInfo'><span id = 'detailStatus' class = 'details'><b>Status:</b> {$escaped['status']}<br><br></span><span id = 'detailDate' class = 'details'><b>Posted: </b>{$created}<br><br></span>
 <span id = 'detailLocation' class = 'details'><b>Pick-up Location: </b>{$escaped['location']}<br><br></span>
+
+<span id = 'detailPrice' class = 'details'><b>Price: </b>{$escaped['price']}<br><br></span>
+<span id = 'detailIsbn' class = 'details'><b>Isbn: </b>{$escaped['isbn']}<br><br></span>
+<span id = 'detailAuthor' class = 'details'><b>Author: </b>{$escaped['author']}<br><br></span>
+
 <span id = 'detailDesc' class = 'details'><b>Description</b><br>{$escaped['description']}</span><br><br>
 <br>";
 ?>
