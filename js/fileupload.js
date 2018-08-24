@@ -38,6 +38,7 @@ $('#image').change(function(e) {
             return myXhr;
         },
       success: function(response){
+          console.log('success');
         $("#tempdiv").css("display", "none");
         $('#img').attr("src", response);
         $('#imgpath').attr("value", response);

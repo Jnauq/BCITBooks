@@ -7,7 +7,7 @@ $conn = db_init($config["host"], $config["dbuser"], $config["dbpw"], $config["db
 
 <div class="banner" id="banner">
   <div id="subheader">
-    <span>A food sharing platform for BCIT students</span>
+    <span><b>BCIT used textbooks</b></span>
   </div>
   <div id="searchcontainer">
   <form action="index.php" method="GET" name="searching">
