@@ -57,7 +57,7 @@ if(count($_GET) == 0) {
 
 $created = substr($row['created'], 0, 10);
 
-echo "<p class='list_title center'><span class='green'>\$ {$escaped['price']}</span>&nbsp;{$escaped['title']}</p>";
+echo "<p class='list_title center'><span class='green'>\${$escaped['price']}</span>&nbsp; {$escaped['title']}</p>";
 echo "<div id='detail_left'><img src=\"{$escaped['image']}\" class='detailImg detailImg_fixSize'></div>
 <div class='requestInfo'>
 <span class = 'details'><b>Course: </b>{$escaped['course']}<br><br></span>
@@ -72,7 +72,7 @@ echo "<div id='detail_left'><img src=\"{$escaped['image']}\" class='detailImg de
 <br>";
 ?>
 <form id="detailBtn" action="request.php?id=<?=$filtered_id?>" method="post">
-  <span><button type="submit" id="requestBtn" name="request" class="button"><i class="fa fa-send-o" style="font-size:15px"></i> Request</button></span>
+  <span><button type="submit" id="requestBtn" name="request" class="button"><i class="fa fa-send-o" style="font-size:15px"></i> Contact Owner</button></span>
 </form></div>
 </div>
 

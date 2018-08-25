@@ -10,12 +10,9 @@ require_once('view/top.php');
       <span class="highlight"></span>
       <span class="bar"></span>
     </p>
-    <p>
-      <textarea name="description" rows="3" placeholder="Tell us a bit more about your food (e.g. quantity, best before date)"></textarea>
-    </p>
 
     <p>
-      <input class="textinput" type="text" name="course" placeholder="Course">
+      <input class="textinput" type="text" name="course" placeholder="Course Number">
     </p>
 
     <p>
@@ -30,10 +27,15 @@ require_once('view/top.php');
     <input class="textinput" type="number" min="0" max="1000" name="price" placeholder="Price">
     </p>
 
+    <p>
+      <textarea name="description" rows="3" placeholder="Tell us a bit more about your book (e.g. conditions of the book)"></textarea>
+    </p>
+
+
     <input type='file' accept="image/gif, image/jpeg, image/png, image/jpg" id="image">
     <input type='hidden' id="imgpath" name="path">
     <div id="uploadbox">
-      <div id="tempdiv"><i class="fa fa-upload" style="font-size:18px;color:green"></i>
+      <div id="tempdiv"><i class="fa fa-upload" style="font-size:18px;color:#042860"></i>
         Upload a photo<br>
         <img src="img/photo.png">
       </div>

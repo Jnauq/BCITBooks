@@ -5,7 +5,7 @@
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
     <title>BCIT Books</title>
     <link rel="icon" href="img/logo.png">
-    <link rel="stylesheet" href="style/style.css?v=1.02">
+    <link rel="stylesheet" href="style/style.css?v=1.03">
     <!--  reference link to font awesome  -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
