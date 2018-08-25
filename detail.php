@@ -72,7 +72,7 @@ echo "<div id='detail_left'><img src=\"{$escaped['image']}\" class='detailImg de
 <br>";
 ?>
 <form id="detailBtn" action="request.php?id=<?=$filtered_id?>" method="post">
-  <span><button type="submit" id="requestBtn" name="request" class="button"><i class="fa fa-send-o" style="font-size:15px"></i> Request</button></span>
+  <span><button type="submit" id="requestBtn" name="request" class="button"><i class="fa fa-send-o" style="font-size:15px"></i> Contact Owner</button></span>
 </form></div>
 </div>
 

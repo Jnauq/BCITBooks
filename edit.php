@@ -58,31 +58,31 @@ if(!isset($_POST['id'])) {
 
 <div id="edit_right">
     <p>
-      <input class="textinput" type="text" name="title" value="<?=$escaped['title']?>">
+      <input class="textinput" type="text" name="title" placeholder="Book Title" value="<?=$escaped['title']?>">
       <span class="highlight"></span>
       <span class="bar"></span>
     </p>
     <p>
-      <input class="textinput" type="text" name="course" value="<?=$escaped['course']?>">
+      <input class="textinput" type="text" name="course" placeholder="Course Number" value="<?=$escaped['course']?>">
       <span class="highlight"></span>
       <span class="bar"></span>
     </p>
     <p>
-      <input class="textinput" type="text" name="author" value="<?=$escaped['author']?>">
+      <input class="textinput" type="text" name="author" placeholder="Author" value="<?=$escaped['author']?>">
       <span class="highlight"></span>
       <span class="bar"></span>
     </p>
     <p>
-      <input class="textinput" type="text" name="isbn" value="<?=$escaped['isbn']?>">
+      <input class="textinput" type="text" name="isbn" placeholder="ISBN" value="<?=$escaped['isbn']?>">
       <span class="highlight"></span>
       <span class="bar"></span>
     </p>
     <p>
-      <input class="textinput" type="number" min="0" max="1000" name="price" value="<?=$escaped['price']?>">
+      <input class="textinput" type="number" min="0" max="1000" name="price" placeholder="Price" value="<?=$escaped['price']?>">
       <span class="highlight"></span>
       <span class="bar"></span>
     </p>
-    <p><textarea name="description" rows="3" cols="20"><?=$escaped['description']?></textarea></p>
+    <p><textarea name="description" rows="3" cols="20" placeholder="Tell us a bit more about your book (e.g. conditions of the book)" ><?=$escaped['description']?></textarea></p>
     <div class="pickup">
       <p>Pick-up campus</p>
       <p><label><input type="radio" name="location" value="Burnaby Campus" <?=$checked_Burnaby?>>Burnaby</label>
@@ -101,7 +101,7 @@ if(!isset($_POST['id'])) {
     </p>
     <span class="pswcheck">*password must be between 4 to 20 characters and can contain letters, numbers or symbols.</span>
     <p>
-      <input class="textinput" type="email" name="email" value="<?=$escaped['email']?>">
+      <input class="textinput" type="email" name="email" placeholder="Email" value="<?=$escaped['email']?>">
       <span class="highlight"></span>
       <span class="bar"></span>  
     </p>
