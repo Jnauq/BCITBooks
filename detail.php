@@ -57,17 +57,17 @@ if(count($_GET) == 0) {
 
 $created = substr($row['created'], 0, 10);
 
-echo "<p class='list_title center'>{$escaped['title']}</p>";
+echo "<p class='list_title center'><span class='green'>\$ {$escaped['price']}</span>&nbsp;{$escaped['title']}</p>";
 echo "<div id='detail_left'><img src=\"{$escaped['image']}\" class='detailImg detailImg_fixSize'></div>
 <div class='requestInfo'>
-<span id = 'detailCourse' class = 'details'><b>Course: </b>{$escaped['course']}<br><br></span>
-<span id = 'detailAuthor' class = 'details'><b>Author: </b>{$escaped['author']}<br><br></span>
-<span id = 'detailIsbn' class = 'details'><b>Isbn: </b>{$escaped['isbn']}<br><br></span>
-<span id = 'detailPrice' class = 'details'><b>Price: </b>{$escaped['price']}<br><br></span>
-<span id = 'detailDesc' class = 'details'><b>Description:</b><br>{$escaped['description']}</span><br><br>
-<span id = 'detailStatus' class = 'details'><b>Status:</b> {$escaped['status']}<br><br></span>
-<span id = 'detailLocation' class = 'details'><b>Pick-up Location: </b>{$escaped['location']}<br><br></span>
-<span id = 'detailDate' class = 'details'><b>Posted: </b>{$created}<br><br></span>
+<span class = 'details'><b>Course: </b>{$escaped['course']}<br><br></span>
+<span class = 'details'><b>Author: </b>{$escaped['author']}<br><br></span>
+<span class = 'details'><b>Isbn: </b>{$escaped['isbn']}<br><br></span>
+<span class = 'details'><b>Price: </b>\${$escaped['price']}<br><br></span>
+<span class = 'details'><b>Description:</b><br>{$escaped['description']}<br><br></span>
+<span class = 'details'><b>Status:</b> {$escaped['status']}<br><br></span>
+<span class = 'details'><b>Pick-up Location: </b>{$escaped['location']}<br><br></span>
+<span class = 'details'><b>Posted: </b>{$created}<br><br></span>
 
 <br>";
 ?>
