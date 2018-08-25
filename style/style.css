@@ -236,6 +236,7 @@ progress[value] {
    appearance: none;
    width: 220px;
    max-width: 90%;
+   color:blue;
 }
 progress[value]::-webkit-progress-bar {
   background-color: #eee;
@@ -253,13 +254,13 @@ progress[value]::-webkit-progress-bar {
   max-width: 90%;
   height: 150px;
   padding: 10px;
-  border: 2px dashed #1FB264;
+  border: 2px dashed #042860;
   cursor: pointer;
   text-align: center;
 }
 #uploadbox:hover {
-  border: 4px dashed #1FB264;
-  background-color: #cff7d0;
+  border: 4px dashed #04276065;
+  background-color: #04276065;
 }
 .button {
   font-size: 1.1em;
@@ -471,7 +472,7 @@ label .arrow-up { display: none; }
   cursor: pointer;
 }
 .fakelink:hover {
-  color: #048c36;
+  color: #042860;
 }
 .checkContainer {
   background-color: #eff0f2;

@@ -35,12 +35,12 @@ require_once('view/top.php');
     <input type='file' accept="image/gif, image/jpeg, image/png, image/jpg" id="image">
     <input type='hidden' id="imgpath" name="path">
     <div id="uploadbox">
-      <div id="tempdiv"><i class="fa fa-upload" style="font-size:18px;color:green"></i>
+      <div id="tempdiv"><i class="fa fa-upload" style="font-size:18px"></i>
         Upload a photo<br>
         <img src="img/photo.png">
       </div>
       <img src="" id="img"><br>
-      <progress></progress>
+      <progress style="color=blue"></progress>
     </div>
 
 
