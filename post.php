@@ -84,8 +84,9 @@ require_once('view/top.php');
         </span>
     </label>
     <div class="fieldsetContainer">
-      <p class="ToU">By uploading to this site, you, the user agree that the food item is not expired, nor has it been opened.
-      This site was made under the pretense that a faithful and caring community (BCIT) exists.</p>
+      <p class="ToU">By uploading to this site, you, the user agree that the details about the book are accurate
+      and are responsible for the exchange/delivery of the promised product(s).  This site was made under the 
+      pretense that a faithful and caring community (BCIT) exists.</p>
     </div>
   </div>
   <br>
