@@ -131,8 +131,10 @@ article {
   display: inline-block;
 }
 .list_item {
+  box-sizing: border-box;
   display: inline-block;
-  max-width: 80%;
+  width: 355px;
+  max-width: 90%;
   text-align: left;
   background-color:white;
   margin: 1.5em 0.5em;

@@ -67,7 +67,7 @@ $conn = db_init($config["host"], $config["dbuser"], $config["dbpw"], $config["db
     echo "<a href=\"detail.php?id={$row['id']}\"><div class='list_item'><p class='list_title'><span class='green'>\${$escaped['price']}</span> &nbsp; {$escaped['title']}</p>";
     echo "<img src=\"{$escaped['image']}\" class='uploadedImg'>
     <p>Status:&nbsp; {$escaped['status']} $icon<br>
-    Course:&nbsp; {$escaped['course']}</p></div>";
+    Course:&nbsp; {$escaped['course']}</p></div></a>";
 
     $lastid = $row['id'];
     }
