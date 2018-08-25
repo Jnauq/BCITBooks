@@ -232,16 +232,11 @@ progress:not([value]) {
 }
 progress[value] {
   /* Reset the default appearance */
-  -webkit-appearance: none;
-   appearance: none;
+   background-color: #042860;
    width: 220px;
    max-width: 90%;
 }
-progress[value]::-webkit-progress-bar {
-  background-color: #eee;
-  border-radius: 2px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
-}
+
 #image {
   display: none;
 }
@@ -253,13 +248,13 @@ progress[value]::-webkit-progress-bar {
   max-width: 90%;
   height: 150px;
   padding: 10px;
-  border: 2px dashed #1FB264;
+  border: 2px dashed #042860;
   cursor: pointer;
   text-align: center;
 }
 #uploadbox:hover {
-  border: 4px dashed #1FB264;
-  background-color: #cff7d0;
+  border: 4px dashed #042860;
+  background-color: #dee8f9;
 }
 .button {
   font-size: 1.1em;
