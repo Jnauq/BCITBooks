@@ -576,19 +576,19 @@ input[type='checkbox']:checked:after {
 }
 
 .navBtn:hover{
-  border-bottom: 7px solid rgba(0, 128, 0, 0.267);
+  border-bottom: 7px solid rgba(3, 53, 189, 0.267);
   color: #042860;
   -webkit-animation: mymove 1s ; /* Safari 4.0 - 8.0 */
   animation: mymove 1s ;
 }
 @-webkit-keyframes mymove {
-  0% {border-bottom: 7px solid rgba(0, 128, 0, 0);}
-  100% {border-bottom: 7px solid rgba(0, 128, 0, 0.267);}
+  0% {border-bottom: 7px solid rgba(0, 0, 128, 0);}
+  100% {border-bottom: 7px solid rgba(3, 53, 189, 0.267);}
 }
 
 @keyframes mymove {
-  0% {border-bottom: 7px solid rgba(0, 128, 0, 0);}
-  100% {border-bottom: 7px solid rgba(0, 128, 0, 0.267);}
+  0% {border-bottom: 7px solid rgba(0, 0, 128, 0);}
+  100% {border-bottom: 7px solid rgba(3, 53, 189, 0.267);}
 }
 
 
