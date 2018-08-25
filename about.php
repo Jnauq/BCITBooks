@@ -5,8 +5,6 @@ require_once('view/top.php');
 <link rel="stylesheet" href="style/about_contact.css">
 
 <div class="about-banner">
-    <h1><i>"Well, the fridge broke,<br> so I had to eat everything"</i></h1>
-    <img src="img/lovefood.png" id="vanlogo">
 </div><br>
 
 <div class="about-us">
