@@ -237,6 +237,7 @@ progress[value] {
    background-color: #042860;
    width: 220px;
    max-width: 90%;
+   color:blue;
 }
 
 #image {

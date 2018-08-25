@@ -13,18 +13,26 @@ require_once('view/top.php');
 
     <p>
       <input class="textinput" type="text" name="course" placeholder="Course Number">
+      <span class="highlight"></span>
+      <span class="bar"></span>
     </p>
 
     <p>
     <input class="textinput" type="text" name="author" placeholder="Author">
+    <span class="highlight"></span>
+      <span class="bar"></span>
     </p>
 
     <p>
     <input class="textinput" type="text" name="isbn" placeholder="ISBN">
+    <span class="highlight"></span>
+      <span class="bar"></span>
     </p>
 
     <p>
     <input class="textinput" type="number" min="0" max="1000" name="price" placeholder="Price">
+    <span class="highlight"></span>
+      <span class="bar"></span>
     </p>
 
     <p>
@@ -40,7 +48,7 @@ require_once('view/top.php');
         <img src="img/photo.png">
       </div>
       <img src="" id="img"><br>
-      <progress></progress>
+      <progress style="color=blue"></progress>
     </div>
 
 
@@ -84,8 +92,9 @@ require_once('view/top.php');
         </span>
     </label>
     <div class="fieldsetContainer">
-      <p class="ToU">By uploading to this site, you, the user agree that the food item is not expired, nor has it been opened.
-      This site was made under the pretense that a faithful and caring community (BCIT) exists.</p>
+      <p class="ToU">By uploading to this site, you, the user agree that the details about the book are accurate
+      and are responsible for the exchange/delivery of the promised product(s).  This site was made under the 
+      pretense that a faithful and caring community (BCIT) exists.</p>
     </div>
   </div>
   <br>
