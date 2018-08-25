@@ -26,6 +26,9 @@ a:hover {
 .center {
   text-align: center;
 }
+.green {
+  color: green;
+}
 /* header */
 header {
   position: fixed;
@@ -691,7 +694,7 @@ input[type='checkbox']:checked:after {
     margin-top:210px;
   }
   .list_title {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
   .requestInfo {
     width:45%;
