@@ -7,7 +7,7 @@ $conn = db_init($config["host"], $config["dbuser"], $config["dbpw"], $config["db
 
 <div class="banner" id="banner">
   <div id="subheader">
-    <span><b>BCIT used textbooks</b></span>
+    <span><b>BCIT Used Textbooks</b></span>
   </div>
   <div id="searchcontainer">
   <form action="index.php" method="GET" name="searching">
@@ -67,7 +67,7 @@ $conn = db_init($config["host"], $config["dbuser"], $config["dbpw"], $config["db
     echo "<a href=\"detail.php?id={$row['id']}\"><div class='list_item'><p class='list_title'><span class='green'>\${$escaped['price']}</span> &nbsp; {$escaped['title']}</p>";
     echo "<img src=\"{$escaped['image']}\" class='uploadedImg'>
     <p>Status:&nbsp; {$escaped['status']} $icon<br>
-    Course:&nbsp; {$escaped['course']}</p>";
+    Course:&nbsp; {$escaped['course']}</p></div>";
 
     $lastid = $row['id'];
     }
