@@ -21,7 +21,7 @@ require_once('view/top.php');
             <li>Fill out the details of the book(s)</li>
             <li>Enter an email address you wish to be contacted through</li>
             <li>Create a password so you can edit or delete your post later</li>
-            <li>Post it and wait for someone make a request</li>
+            <li>Post it and wait for someone to make a request</li>
         </ol>
     </div>
 
