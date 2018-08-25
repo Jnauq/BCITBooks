@@ -13,18 +13,26 @@ require_once('view/top.php');
 
     <p>
       <input class="textinput" type="text" name="course" placeholder="Course Number">
+      <span class="highlight"></span>
+      <span class="bar"></span>
     </p>
 
     <p>
     <input class="textinput" type="text" name="author" placeholder="Author">
+    <span class="highlight"></span>
+      <span class="bar"></span>
     </p>
 
     <p>
     <input class="textinput" type="text" name="isbn" placeholder="ISBN">
+    <span class="highlight"></span>
+      <span class="bar"></span>
     </p>
 
     <p>
     <input class="textinput" type="number" min="0" max="1000" name="price" placeholder="Price">
+    <span class="highlight"></span>
+      <span class="bar"></span>
     </p>
 
     <p>
