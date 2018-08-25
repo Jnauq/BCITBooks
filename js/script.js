@@ -78,6 +78,10 @@ function check_input(){
   || theForm.title.value == ""
   || theForm.path.value == ""
   || theForm.description.value == ""
+  || theForm.price.value == ""
+  || theForm.course.value == ""
+  || theForm.author.value == ""
+  || theForm.isbn.value == ""
   || pwd_validation() == false){
     swal({
       title: "Wait a minute!",

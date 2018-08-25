@@ -10,6 +10,10 @@ if(count($_POST) == 0) {
   $escaped = array(
     'title' => htmlspecialchars($_POST['title']),
     'email' => htmlspecialchars($_POST['email']),
+    'price' => htmlspecialchars($_POST['price']),
+    'course' => htmlspecialchars($_POST['course']),
+    'author' => htmlspecialchars($_POST['author']),
+    'isbn' => htmlspecialchars($_POST['isbn']),
     'description' => htmlspecialchars($_POST['description']),
 );
 
@@ -18,9 +22,13 @@ if(count($_POST) == 0) {
   echo "<p class='list_title'>Please confirm</p><br>";
   echo "<p><b>Email: </b> " . $escaped['email'] . "</p>";
   echo "<p><b>Title: </b> " . $escaped['title'] . "</p>";
-  echo "<img src='{$_POST['path']}' alt=\"photo\" class='detailImg'>";
+  echo "<p><b>Course: </b> " . $escaped['course'] . "</p>";
+  echo "<p><b>Author: </b> " . $escaped['author'] . "</p>";
+  echo "<p><b>ISBN: </b> " . $escaped['isbn'] . "</p>";
   echo "<p><b>Pick-up location</b> ". $_POST["location"] . "</p>";
   echo "<p><b>Description: </b> " . $escaped['description'] . "</p>";
+  echo "<p><b>Price: </b> " . $escaped['price'] . "</p>";
+  echo "<img src='{$_POST['path']}' alt=\"photo\" class='detailImg'>";
 
 }
 ?>
@@ -31,7 +39,11 @@ if(count($_POST) == 0) {
   <input type="hidden" name="password" value="<?= $_POST['password'] ?>" ><br>
   <input type="hidden" name="email" value="<?= $_POST['email'] ?>"><br>
   <input type="hidden" name="title" value="<?= $_POST['title'] ?>">
+  <input type="hidden" name="course" value="<?= $_POST['course'] ?>">
+  <input type="hidden" name="author" value="<?= $_POST['author'] ?>">
+  <input type="hidden" name="isbn" value="<?= $_POST['isbn'] ?>">
   <input type="hidden" name="description" value="<?= $_POST["description"] ?>">
+  <input type="hidden" name="price" value="<?= $_POST['price'] ?>">
   <input type="hidden" name="image" value="<?= $_POST['path'] ?>">
   <input type="hidden" name="location" value="<?= $_POST['location'] ?>" >
 </form>

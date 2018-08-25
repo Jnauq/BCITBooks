@@ -19,10 +19,15 @@ if(!isset($_POST['id'])) {
   //prevent cross scripting attack
   $escaped = array(
     'title' => htmlspecialchars($row['title']),
-    'email' => htmlspecialchars($row['email']),
+    'price' => htmlspecialchars($row['price']),
     'image' => htmlspecialchars($row['image']),
+    'isbn' => htmlspecialchars($row['isbn']),
+    'email' => htmlspecialchars($row['email']),
+    'author' => htmlspecialchars($row['author']),
     'status' => htmlspecialchars($row['status']),
     'description' => htmlspecialchars($row['description']),
+    'course' => htmlspecialchars($row['course']),
+    'location'=> htmlspecialchars($row['location'])
   );
 
   // used for radio button check status
@@ -54,6 +59,26 @@ if(!isset($_POST['id'])) {
 <div id="edit_right">
     <p>
       <input class="textinput" type="text" name="title" value="<?=$escaped['title']?>">
+      <span class="highlight"></span>
+      <span class="bar"></span>
+    </p>
+    <p>
+      <input class="textinput" type="text" name="course" value="<?=$escaped['course']?>">
+      <span class="highlight"></span>
+      <span class="bar"></span>
+    </p>
+    <p>
+      <input class="textinput" type="text" name="author" value="<?=$escaped['author']?>">
+      <span class="highlight"></span>
+      <span class="bar"></span>
+    </p>
+    <p>
+      <input class="textinput" type="text" name="isbn" value="<?=$escaped['isbn']?>">
+      <span class="highlight"></span>
+      <span class="bar"></span>
+    </p>
+    <p>
+      <input class="textinput" type="number" min="0" max="1000" name="price" value="<?=$escaped['price']?>">
       <span class="highlight"></span>
       <span class="bar"></span>
     </p>

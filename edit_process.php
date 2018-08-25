@@ -26,7 +26,11 @@ if(count($_POST) == 0) {
         email = '{$filtered['email']}',
         title = '{$filtered['title']}',
         description = '{$filtered['description']}',
-        location = '{$_POST['location']}'
+        location = '{$_POST['location']}',
+        price = '{$_POST['price']}',
+        isbn = '{$_POST['isbn']}',
+        author = '{$_POST['author']}',
+        course = '{$_POST['course']}'
       WHERE id = {$_POST['id']}
         ";
 
