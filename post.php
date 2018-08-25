@@ -40,7 +40,7 @@ require_once('view/top.php');
         <img src="img/photo.png">
       </div>
       <img src="" id="img"><br>
-      <progress></progress>
+      <progress style="color=blue"></progress>
     </div>
 
 
